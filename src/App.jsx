@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import HomePage from "./pages/HomePage";
-import UserDetailsPage from "./pages/UserDetailsPage";
+import HomePage from "./Pages/HomePage";
+import UserDetailsPage from "./Pages/UserDetailsPage";
 import { getAllUsers } from "./utils/api";
 
 function App() {
